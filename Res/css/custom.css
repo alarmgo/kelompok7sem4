@@ -22,7 +22,7 @@ a:hover{
 
 .menuoverlay{
     background-color: rgba(0, 0, 0, 0.5) !important; 
-    border-radius: 1rem;
+    border-radius: 0.5rem;
     width: 15rem; 
     height: 30rem;
     position: absolute;
@@ -39,7 +39,7 @@ a:hover{
 
 .dismenuoverlay{
     background-color: rgba(0, 0, 0, 1) !important; 
-    border-radius: 1rem;
+    border-radius: 0.5rem;
     width: 15rem; 
     height: 30rem;
     position: absolute;
