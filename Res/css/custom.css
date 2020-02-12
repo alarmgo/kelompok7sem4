@@ -12,7 +12,7 @@ a:hover{
 
 
 .menubtn{
-    border-radius: 1rem;
+    border-radius: 0.5rem;
     width: 15rem; 
     height: 30rem;  
     object-fit: cover;
