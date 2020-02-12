@@ -36,6 +36,24 @@ a:hover{
     box-shadow: 0rem 0rem 0.3rem 0.1rem rgba(255, 255, 255, 0.5) !important;
 }
 
+
+.dismenuoverlay{
+    background-color: rgba(0, 0, 0, 1) !important; 
+    border-radius: 1rem;
+    width: 15rem; 
+    height: 30rem;
+    position: absolute;
+}
+
+
+.dismenuoverlay:hover{
+    transition-duration: 1s ease;
+    -webkit-transition-duration: 1s ease;
+    border-radius: 0.5rem;
+    box-shadow: 0rem 0rem 0.3rem 0.1rem rgba(255, 255, 255, 0.5) !important;
+}
+
+
 .menu{
     width: 15rem; 
     height: 30rem;
