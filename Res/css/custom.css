@@ -94,3 +94,45 @@ a:hover{
     margin-bottom: 1.5rem;
     color: #fff;
 }
+
+.btn-nact {
+    color: #fff;
+    background-color: #666;
+    border-color: #343a40;
+    border-radius: 0px;
+}
+
+.btn-nact:hover {
+    color: #fff;
+    background-color: #666;
+    border-color: #1d2124;
+}
+
+.btn-nact:active {
+    color: #fff;
+    background-color: #23272b;
+    border-color: #1d2124;
+    box-shadow: 0 0 0 0.2rem rgba(82, 88, 93, 0.5);
+}
+
+
+.btn-ndis {
+    color: #fff;
+    
+    border-radius: 0px;
+    background-color: #444;
+    border-color: #343a40;
+}
+
+.btn-ndis:hover {
+    color: #fff;
+    background-color: #23272b;
+    border-color: #1d2124;
+}
+
+.btn-ndis:active {
+    color: #fff;
+    background-color: #23272b;
+    border-color: #1d2124;
+    box-shadow: 0 0 0 0.2rem rgba(82, 88, 93, 0.5);
+}
