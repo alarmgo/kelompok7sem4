@@ -33,7 +33,17 @@ a:hover{
     transition-duration: 1s ease;
     -webkit-transition-duration: 1s ease;
     border-radius: 0.5rem;
-    box-shadow: 0rem 0rem 0.3rem 0.1rem rgba(255, 255, 255, 0.5) !important;
+    box-shadow: 
+    inset 0rem 0rem 0.5rem 0.1rem rgba(255, 255, 255, 0.2),
+    0rem 0rem 1rem 0.3rem rgba(0, 0, 0, 0.5);
+}
+
+.menuoverlay:active{
+    transition-duration: 1s ease;
+    -webkit-transition-duration: 1s ease;
+    border-radius: 0.5rem;
+    box-shadow: 
+    inset 0rem 0rem 1rem 1rem rgba(0, 0, 0, 0.2);
 }
 
 
@@ -50,7 +60,8 @@ a:hover{
     transition-duration: 1s ease;
     -webkit-transition-duration: 1s ease;
     border-radius: 0.5rem;
-    box-shadow: 0rem 0rem 0.3rem 0.1rem rgba(255, 255, 255, 0.5) !important;
+    box-shadow: 
+    0rem 0rem 1rem 0.3rem rgba(0, 0, 0, 0.5);
 }
 
 
@@ -60,3 +71,26 @@ a:hover{
 }
 
 
+.nact{
+    text-shadow: 0 0 3px #ccf;
+    color: #fff;
+    margin-bottom: 1.5rem;
+}
+
+.nact:hover{
+    text-shadow: 0 0 3px #ccf;
+    color: #fff;
+    margin-bottom: 1.5rem;
+}
+
+.ndis{
+    color: #fff;
+    font-weight: 300;
+    margin-bottom: 1.5rem;
+}
+.ndis:hover{
+    text-shadow: 0 0 3px #ccf;
+    cursor: pointer;
+    margin-bottom: 1.5rem;
+    color: #fff;
+}
