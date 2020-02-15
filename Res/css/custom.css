@@ -189,3 +189,24 @@ a:hover {
 .bordered {
     border:1px solid black;
 }
+
+.bordered-2 {
+    border:1px solid black;
+    height: 2rem;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
