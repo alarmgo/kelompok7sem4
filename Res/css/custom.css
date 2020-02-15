@@ -100,12 +100,18 @@ a:hover{
     background-color: #666;
     border-color: #343a40;
     border-radius: 0px;
+    border:none;
+    text-shadow: 0 0 3px #ccf;
+    color: #fff;
 }
 
 .btn-nact:hover {
     color: #fff;
     background-color: #666;
     border-color: #1d2124;
+    
+    text-shadow: 0 0 3px #ccf;
+    color: #fff;
 }
 
 .btn-nact:active {
@@ -128,6 +134,9 @@ a:hover{
     color: #fff;
     background-color: #23272b;
     border-color: #1d2124;
+    
+    text-shadow: 0 0 3px #ccf;
+    color: #fff;
 }
 
 .btn-ndis:active {
@@ -135,4 +144,48 @@ a:hover{
     background-color: #23272b;
     border-color: #1d2124;
     box-shadow: 0 0 0 0.2rem rgba(82, 88, 93, 0.5);
+}
+
+.position-fixed {
+    position: fixed !important;
+    z-index: 20;
+}
+
+.bhind {
+    margin-left: 15rem;
+    position: relative;
+    z-index: 0; 
+}
+    
+.dashc1{
+    border-radius: 0.1rem;
+    background-color: #fff;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+}
+
+.dashc1:hover{
+    background-color: rgba(255, 255, 255, 0.6);
+    box-shadow:
+    inset 0rem 0rem 55rem 3rem rgba(255, 255, 255, 0.9),
+    0rem 0rem 1rem 0.3rem rgba(0, 0, 0, 0.5);
+}
+
+.dashc2{
+    border-radius: 0.1rem;
+    background-color: #fff;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+}
+
+
+
+a {
+    color: black;
+}
+
+a:hover {
+    color: black;
+}
+
+.bordered {
+    border:1px solid black;
 }
