@@ -232,3 +232,7 @@ tr:nth-child(even) {
     border-radius: 0; border-top: 2px solid royalblue;
     background: rgba(0,0,0, 0.2);
 }
+
+.vertical-text {
+transform: rotate(-90deg);
+}
