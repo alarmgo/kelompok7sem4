@@ -210,3 +210,25 @@ td, th {
 tr:nth-child(even) {
     background-color: #dddddd;
 }
+
+.findash{
+}
+
+.findash:hover{
+    cursor: pointer;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+    border-radius: 0.5rem;
+}
+
+.findash:active{
+    opacity: 0.8;
+}
+
+.btn-tog-data-active{
+    border-radius: 0; border-top: 2px solid royalblue;
+}
+
+.btn-tog-data:hover{
+    border-radius: 0; border-top: 2px solid royalblue;
+    background: rgba(0,0,0, 0.2);
+}
