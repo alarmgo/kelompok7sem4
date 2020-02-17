@@ -89,50 +89,74 @@
                 <!-- tabel -->
                 <div class="col bhind" style="height: 200vh; position: relative;">
                     <div class="row px-2" style="margin-top: 8vh;" >
-                        <h3 style="align-content: center;"><b> Jurnal Pengeluaran Divisi SDM </b> </h3>
-                        <div class="col">
-                            <div class="row">
+                        <div class="row pl-4" style="height: 90%;">
 
+                            <div class="col">
+                                <div class="container bordered mt-4" style="width: fit-content;">
+                                    <div class="row text-center bg-dark text-white mb-2" style="height: 2.5rem;">
+                                        <div class="col font-weight-light my-auto">
+                                            Input Baru
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-3">
+                                            Bukti
+                                        </div>
+                                        <div class="col-1">
+                                            :
+                                        </div>
+                                        <div class="col-3">
+                                            <input type="text" placeholder="No. Kwitansi Bukti/Ref" style="height: 1rem; border: none; border-bottom: 1px solid royalblue;">
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-3">
+                                            Keterangan
+                                        </div>
+                                        <div class="col-1">
+                                            :
+                                        </div>
+                                        <div class="col-3">
+                                            <input type="text" placeholder="Keterangan Aliran Dana" style="height: 1rem; border: none; border-bottom: 1px solid royalblue;">
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-3">
+                                            Debet
+                                        </div>
+                                        <div class="col-1">
+                                            :
+                                        </div>
+                                        <div class="col-3">
+                                            <input type="text" placeholder="Rp-" style="height: 1rem; border: none; border-bottom: 1px solid royalblue;">
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-3">
+                                            Kredit
+                                        </div>
+                                        <div class="col-1">
+                                            :
+                                        </div>
+                                        <div class="col-3">
+                                            <input type="text" placeholder="Rp-" style="height: 1rem; border: none; border-bottom: 1px solid royalblue;">
+                                        </div>
+                                    </div>
+                                    <div class="row my-3">
+                                        <div class="col">
+                                            <div class="btn-group w-100">
+                                            <a onclick="ConfirmFunction()" href="PengeluaranEdit.html" class="btn btn-success">
+                                                    Simpan
+                                            </a>
+                                            <a href="PengeluaranEdit.html" class="btn btn-danger">
+                                                Batalkan
+                                            </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-
-                        <strong> Bulan : Januari 2020 </strong> <br>
-                        <!-- tabel jurnal pengeluaran -->
-                        <table style="margin: 10px 15px 15px 20px;">
-                            <tr>
-                                <th> No </th>
-                                <th> Tanggal Transaksi </th>
-                                <th> Nama Transaksi </th>
-                                <th> Lama </th>
-                                <th> Total Harga </th>
-                                <th> Keterangan</th>
-                                <th> </th>
-                            </tr>
-                            <tr>
-                                <td> 1. </td>
-                                <td> 01/01/2020</td>
-                                <td> Lorem Ipsum </td>
-                                <td> 4 jam </td>
-                                <td> Rp25.000</td>
-                                <td> Div. SDM </td>
-                                <td> 
-                                    <div class="btn-group" >
-                                        <a class="btn btn-dark text-white" href="PengeluaranEditConfirm.html" style="font-size: 0.8rem;">Edit</a>
-                                        &nbsp;&nbsp;   
-                                        <button class="btn btn-dark text-white" onclick="DeleteFunction()" style="font-size: 0.8rem;">Hapus</button>  
-                                    </div>
-                                </td>
-                            </tr>
-
-                        </table>
-
-                        
-
-
-                        <!-- Tombol konfirmasi-->
-                        <button type="button" class="btn btn-primary" onclick="SendFunction()">Kirim</button>
-                        &nbsp;&nbsp;          
-                        <button type="button" class="btn btn-primary"><a href="#" style="color: white;">Pengeluaran</a></button>
                         
                     </div>
                 </div>
@@ -144,16 +168,14 @@
         <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-    
+
         <!-- Alerts info -->
         <script>
-            function SendFunction() {
-              alert("Data sudah terkirim ke bagian akuntansi");
+            function ConfirmFunction() {
+              alert("Data sudah diubah");
             }
 
-            function DeleteFunction() {
-              alert("Data sudah Dihapus");
-            }
         </script>
+
     </body>
 </html>
