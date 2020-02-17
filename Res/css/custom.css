@@ -236,3 +236,7 @@ tr:nth-child(even) {
 .vertical-text {
 transform: rotate(-90deg);
 }
+
+.bg-gnf{
+    background-color: #4CAF50;
+}
