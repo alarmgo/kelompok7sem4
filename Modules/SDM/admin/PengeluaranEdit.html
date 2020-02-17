@@ -8,6 +8,26 @@
         <link href="../../../Res/css/custom.css" rel="stylesheet" />
         <script src="../../../Res/js/bootstrap.min.js"></script>
         <script src="../../../Res/js/jquery.js"></script>
+
+        <!-- buat tabel -->
+        <style>
+            table {
+              font-family: arial, sans-serif;
+              border-collapse: collapse;
+              width: 100%;
+            }
+            
+            td, th {
+              border: 1px solid #dddddd;
+              text-align: left;
+              padding: 8px;
+            }
+            
+            tr:nth-child(even) {
+              background-color: #dddddd;
+            }
+        </style>
+
     </head>
     <body style="background-color: #e9e9e9;">
         <div class="container-fluid">
@@ -66,58 +86,40 @@
                         </ul>
                     </div>
                 </div>
-
                 <!-- tabel -->
                 <div class="col bhind" style="height: 200vh; position: relative;">
                     <div class="row px-2" style="margin-top: 8vh;" >
-                        <h3 style="align-content: center;"><b> Pengeluaran Divisi SDM </b> </h3>
-                        <br>
-                        <table>
+                        <h3 style="align-content: center;"><b> Jurnal Pengeluaran Divisi SDM </b> </h3>
+                        <div class="col">
+                            <div class="row">
+
+                            </div>
+                        </div>
+
+                        <strong> Bulan : Januari 2020 </strong> <br>
+                        <!-- tabel jurnal pengeluaran -->
+                        <table style="margin: 10px 15px 15px 20px;">
                             <tr>
-                                <td> Nama Pengeluaran </td>
-                                <td> : </td>
-                                <td> <input type="text" id="fname" name="fname"> </td>
-                                <td> </td>
-                            </tr>
-                            <tr>
-                                <td> Penggunaan </td>
-                                <td> : </td>
-                                <td> <input type="number" id="fquan" name="fquantity"> </td>
-                                <td> <select id="kuantitas"> per
-                                        <option value="Buah"> Jam </option>
-                                        <option value="Ekor"> Hari </option>
-                                        <option value="Kg"> Minggu </option>
-                                        <option value="Unit"> Bulan </option>
-                                        <option value="Unit"> Pemakaian </option>
-                                        <option value="Unit"> Event </option>
-                                     </select> 
-                                </td>
-                            </tr>
-                            <tr> 
-                                <td> Harga per unit  </td>
-                                <td> : </td>
-                                <td> Rp <input type="text" id="harga" name="harga"> </td>
-                                <td>  </td>
+                                <th> No </th>
+                                <th> Tanggal Transaksi </th>
+                                <th> Nama Barang </th>
+                                <th> Kuantitas </th>
+                                <th> Total Harga </th>
+                                <th> Keterangan</th>
                             </tr>
                             <tr>
-                                <td> Total  </td>
-                                <td> : </td>
-                                <td> Rp <input type="text" id="harga" name="harga"> </td>
-                                <td>  </td>
+                                <td> 1. </td>
+                                <td> 01/01/2020</td>
+                                <td> Lorem Ipsum </td>
+                                <td> 4 unit </td>
+                                <td> Rp120.000</td>
+                                <td> Div. Pemasaran</td>
                             </tr>
-                            <tr>
-                                <td> Tanggal Transaksi  </td>
-                                <td> : </td>
-                                <td> <input type="datetime" id="tanggal" name="tanggal"> dd/mm/yyyy </td>
-                                <td>  </td>
-                            </tr>
-                            <tr>
-                                <td> Keterangan Tambahan (jika ada) </td>
-                                <td> : </td>
-                                <td> <input type="text" id="keterangan" name="keterangan" > </td>
-                                <td>  </td>
-                            </tr>
+
                         </table>
+
+                        
+
 
                         <!-- Tombol konfirmasi-->
                         <button type="button" class="btn btn-primary" onclick="SaveFunction()">Simpan</button>
@@ -126,9 +128,7 @@
                         
                     </div>
                 </div>
-                    
 
-                
             </div>
         </div>
 
@@ -137,13 +137,11 @@
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
     
-        <!-- Javascript code-->
+        <!-- Alerts info-->
         <script>
-            function SaveFunction() {
-              alert("Data sudah disimpan");
+            function SendFunction() {
+              alert("Data sudah terkirim ke bagian akuntansi");
             }
         </script>
-
-
     </body>
 </html>
