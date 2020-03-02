@@ -74,8 +74,78 @@
                     </div>
                     
                 </div>
-                <div class="col bhind" style="height: 200vh; position: relative;">
-                    <div class="container-fluid" style="margin-top: 8vh;"></div>
+                <div class="col bhind" style="height: auto; position: relative;">
+                    <div class="container-fluid" style="margin-top: 8vh;">
+                        <div class="row bg-white my-3 ml-0 mr-3" style="height: 35rem; border-radius: 0.5rem;">
+                            <div class="col border-right">
+                                <div class="row" >
+                                    <div class="row mx-auto w-100 pt-3">
+                                        <div class="col px-4 text-centre">
+                                            <h3> Backup Data </h3>
+                                        </div>
+                                    </div>
+                                    <div class="row mx-auto w-100 px-4" >
+                                        <table>
+                                            <tr>
+                                                <td> Database </td>
+                                                <td> : </td>
+                                                <td><select id="nModul" class="form-control">
+                                                    <option selected>All</option>
+                                                    <option>Stok Produk</option>
+                                                    <option>Histori Produksi</option>
+                                                   </select>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td> Periode </td>
+                                                <td> : </td>
+                                                <td><select id="bulan" class="form-control" placeholder="Bulan"> 
+                                                        <option selected> Januari </option>
+                                                        <option> Februari </option>
+                                                        <option> Maret </option>
+                                                        <option> April </option>
+                                                        <option> Mei </option>
+                                                        <option> Juni </option>
+                                                        <option> Juli </option>
+                                                        <option> Agustus </option>
+                                                        <option> September </option>
+                                                        <option> Oktober </option>
+                                                        <option> November </option>
+                                                        <option> Desember </option>
+                                                    </select> 
+                                                </td>
+                                                <td>
+                                                    <select id="tahun" class="form-control" placeholder="Tahun"> 
+                                                        <option selected> 2020 </option>
+                                                        <option> 2019 </option>
+                                                        <option> 2018 </option>
+                                                        <option> 2017 </option>
+                                                    </select> 
+                                                </td>
+                                                <td> </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+
+                                    <!-- button -->
+                                    <div class="row w-100 mx-0 px-2 py-2">
+                                        <div class="col p-0 m-0">
+                                            <div class="row w-30 mx-0 px-2 py-2">
+                                                <div class="col text-right p-0 m-0">
+                                                    <div class="btn-group">
+                                                        <a href="../Manufaktur/Img/dd-mm-yyyy.xlsx" class="btn btn-secondary" style="width: 8rem;">Save As</a>
+                                                        <a href="../Manufaktur/Img/dd-mm-yyyy.sql" class="btn btn-outline-primary" style="width: 8rem;">Backup</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
